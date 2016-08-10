@@ -13,7 +13,7 @@ time.sleep(5.00)
 
 #_______________________________________________________________________________________________________________________	
 #CSV
-csv = genfromtxt('/home/pi/EigeneScripts/tagesverlauf.csv', delimiter=';')
+csv = genfromtxt('/home/pi/EigeneScripts/tagesverlauf.csv', delimiter=',')
 spalterot = 1
 spaltegruen = 2
 spalteblau = 3
